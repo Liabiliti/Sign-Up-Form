@@ -6,9 +6,9 @@ const submitButton = document.querySelector('button');
 
 function isValid()
 {
-    if(passwords[0].textContent !== passwords[1].textContent)
+    if(passwords[0].value !== passwords[1].value)
     {
-        console.log(passwords[0].textContent + " " + passwords[1].textContent);
+        
         alert("Passwords did not match");
         return;
         
