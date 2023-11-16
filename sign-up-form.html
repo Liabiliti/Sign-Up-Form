@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalise.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;500;600&display=swap"
+        rel="stylesheet">
+    <script src="functions.js" defer></script>
+</head>
+
+<body>
+    <div class="signup">
+        <img src="./Images/alchemyrefiner_alchemymagic_0_58fd5435-170a-4b5b-9e57-e2995656cd93_0.jpg"
+            alt="Picture of Village" class="main-image">
+        <div class="Form">
+            <div class="welcome">
+                <legend>
+                    <h1>SIGNUP FORM</h1>
+                </legend>
+                <p>This is not a real online service! You know you need something like this in
+                    your life to help you realise your deepest dreams. Come on and join us!
+                    <br>You know you want to.
+                </p>
+            </div>
+            <form action="" >
+                <legend>
+                    <h2>LET'S DO THIS!</h2>
+                </legend>
+                <fieldset>
+                    <div class="wrapper">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="wrapper">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="wrapper">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="wrapper">
+                        <label for="telephone">PHONE NUMBER</label>
+                        <input type="tel" id="telephone" name="telephone" required>
+                    </div>
+                    <div class="wrapper">
+                        <label for="ps1">PASSWORD</label>
+                        <input type="password" minlength="8" id="ps1" name="ps1" required>
+                    </div>
+                    <div class="wrapper">
+                        <label for="ps2">CONFIRM PASSWORD</label>
+                        <input type="password" minlength="8" id="ps2" name="ps2" required>
+                    </div>
+                </fieldset>
+                <button type="button" onclick="isValid()">Create Account</button>
+                <p class="create">Already have an account? <a href="">Log in</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
