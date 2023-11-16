@@ -14,4 +14,5 @@ function isValid()
         
     }
     alert("Successful form submission!")
+    return true;
 }
