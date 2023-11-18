@@ -10,7 +10,7 @@ function isValid()
     {
         
         alert("Passwords did not match");
-        return;
+        return false;
         
     }
     alert("Successful form submission!")
